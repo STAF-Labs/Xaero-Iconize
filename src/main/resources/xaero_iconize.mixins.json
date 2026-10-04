@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.lotuze.xaero_iconize.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GuiAddWaypointMixin",
+    "GuiWaypointsMixin",
+    "WaypointMapRendererMixin",
+    "WaypointWorldRendererMixin",
+    "WaypointRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
